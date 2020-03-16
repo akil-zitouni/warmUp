@@ -1,9 +1,17 @@
 // 1 - Write functions larger and smaller that each accept two strings as arguments, and return the larger and smaller strings, respectively
-
+function larger (a,b){
+     if ( a.length > b.length ) {
+return a;
+}
+return b;
+}
 // 2 - Write a function called counter that, when invoked, always returns a number that is one more than the previous invocation. For instance:
-// function counting(n) { 
-    TODO: your code here 
-// } 
+function counting(n) { 
+    for (var i =  counting.length ;  i++) {
+     	counting[i]
+      }
+      return counting[i]+1
+  }
 // counting(5); // => '1, 2, 3, 4, 5' 
 // counting(1); // => '1' 
 // counting(3); // => '1, 2, 3'
