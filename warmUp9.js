@@ -13,7 +13,7 @@
 
 //2-Write a JavaScript function to get the first n element of an array.
 //ex  first([1,2,3],1)=>[1]
-//    first([1,2,3,4]2)=>[1,2]
+//    first([1,2,3,4],2)=>[1,2]
 
 
 
