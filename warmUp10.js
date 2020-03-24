@@ -10,12 +10,12 @@
 
 // 1- Using recursion Write a JavaScript program to find the greatest common divisor (gcd) of two positive numbers.
 
-// **************** git status ****************
-// **************** git add fileName.js ****************
-// **************** git status ****************
-// **************** git commit -m "your message" ****************
-// **************** git status ****************
-// **************** git push origin master ****************
+function gcd(a, b) {
+  if (b == 0)
+    return a;
+  else
+    return gcd(b, (a % b));
+}
 
 // 2-Write a function called sum that accepts two numbers as parameters, and sum them together but without suming them togther directly
 //you can only add one at each summetion, you'll need to use recursion in this.
